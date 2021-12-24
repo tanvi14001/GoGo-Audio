@@ -1,0 +1,99 @@
+body{
+    font-family: ' Montserrat ', sans-serif;
+}
+.w3-bar .w3-button {
+        padding: 10px;
+        margin: 0rem 2rem 0rem 0rem;
+    }
+.logo {
+    margin-top: 2rem;
+    height: 20%;
+    width: auto;
+}
+.logo img {
+    height: 40px;
+    width: 10rem;
+}
+.buttons {
+    border-radius: 8px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 5px 18px;
+    border: 1px solid #1d325a;
+    background: linear-gradient(to right,#183157,#8da0bd);
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #ffc477;
+}
+
+.buttons:active {
+    position: relative;
+    top: 1px;
+}
+
+#newPost {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#charCounter {
+    float: right
+}
+
+textarea {
+    width: 100%;
+    height: 10em;
+}
+
+#content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 7rem;
+    word-spacing: 4pt;
+    font-size: 14px;
+}
+#content h4 {
+    font-weight: 600;
+}
+#content p {
+    font-size: 1rem;
+}
+#posts {
+    font-weight: normal;
+    color: #000000;
+    word-spacing: 4pt;
+    font-size: 10px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#posts th {
+    border: 1px solid #f2f4f7;
+    background-color: #183157;
+    color: white;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+#posts td {
+    padding: 8px;
+    border-color: #666666;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.75rem;
+}
+
+#logout{
+    float: right;
+}
+
+#table-container{
+    padding: 50px;
+}
+
